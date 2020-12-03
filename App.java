@@ -24,7 +24,7 @@ public class App {
 	
 	
 	private static void _readTweet(String inputTweet) {
-		String words[] = inputTweet.split("\\s");
+		String words[] = inputTweet.split("\\s+");
 		for (String word : words){
 			if(word.startsWith("#")) {
 				word = word.substring(1);
