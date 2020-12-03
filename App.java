@@ -57,7 +57,7 @@ public class App {
 		 * 
 		 */
 		
-		while(true && i < hashtagsList.size()) {
+		while(i < hashtagsList.size()) {
 			Map.Entry<String, Integer> hashtag = hashtagsList.get(i++);
 			int currentValue = hashtag.getValue();
 			if(lastValue == currentValue) {
